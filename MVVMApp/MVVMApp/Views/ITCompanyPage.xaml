@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVMApp.Views.ITCompanyPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout x:Name="itCompanyStack">
+                <Label Text="Название"/>
+                <Entry Text="{Binding Name}" FontSize="Medium" />
+                <Label Text="Географическое расположение (страна, город)" />
+                <Entry Text="{Binding Geolocation}" FontSize="Medium" />
+                <Label Text="Сфера деятельности" />
+                <Entry Text="{Binding FieldOfActivity}" FontSize="Medium" />
+                <Label Text="Число сотрудников" />
+                <Entry Text="{Binding NumberOfEmployees}" FontSize="Medium" />
+                <Label Text="Масштаб бизнеса" />
+                <Entry Text="{Binding Scale}" FontSize="Medium" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="Добавить"
+                        Command="{Binding ListViewModel.SaveITCompanyCommand}"
+                        CommandParameter="{Binding}" />
+                <Button Text="Удалить"
+                        Command="{Binding ListViewModel.DeleteITCompanyCommand}"
+                        CommandParameter="{Binding}" />
+                <Button Text="Назад"
+                        Command="{Binding ListViewModel.BackCommand}" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

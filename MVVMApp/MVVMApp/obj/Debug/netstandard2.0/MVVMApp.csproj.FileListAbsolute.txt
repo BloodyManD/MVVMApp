@@ -1,0 +1,17 @@
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\bin\Debug\netstandard2.0\MVVMApp.deps.json
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\bin\Debug\netstandard2.0\MVVMApp.dll
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\bin\Debug\netstandard2.0\MVVMApp.pdb
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\MVVMApp.csproj.AssemblyReference.cache
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\MVVMApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\Views\ITCompaniesListPage.xaml.g.cs
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\Views\ITCompanyPage.xaml.g.cs
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\MVVMApp.AssemblyInfoInputs.cache
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\MVVMApp.AssemblyInfo.cs
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\MVVMApp.csproj.CoreCompileInputs.cache
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\MVVMApp.dll
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\refint\MVVMApp.dll
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\MVVMApp.pdb
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp\obj\Debug\netstandard2.0\ref\MVVMApp.dll

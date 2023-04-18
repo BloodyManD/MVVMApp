@@ -1,0 +1,1 @@
+C:\Users\ngavr\source\repos\MVVMApp\MVVMApp\MVVMApp.UWP\MVVMApp.UWP.csproj;x64

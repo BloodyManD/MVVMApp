@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVMApp.Views.ITCompaniesListPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Добавить" Command="{Binding CreateITCompanyCommand}"/>
+            <ListView x:Name="booksList" ItemsSource="{Binding Companies}"
+                      SelectedItem="{Binding SelectedCompany, Mode=TwoWay}"
+                      HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout>
+                                    <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Geolocation}" FontSize="Small"/>
+                                    <Label Text="{Binding FieldOfActivity}" FontSize="Small"/>
+                                    <Label Text="{Binding NumberOfEmployees}" FontSize="Small"/>
+                                    <Label Text="{Binding Scale}" FontSize="Small"/>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Label x:Name="Footer" Text = "Гаврилов Никита, ИУ3-82Б, n.gavrilov1@gmail.com" HorizontalTextAlignment="End"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
